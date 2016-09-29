@@ -39,7 +39,7 @@ class FourToZeroGame:
 WIN = 'W' # forces the opponent into a loss
 LOSS = 'L' # no way to win against opponent
 TIE = 'T' # no more moves but no decisive winner
-DRAW = 'D' # the game as entered a cycle
+DRAW = 'D' # the game has entered a cycle
 UNDECIDED = 'U' # the game is not over yet
 
 # dfs traversal of game tree
