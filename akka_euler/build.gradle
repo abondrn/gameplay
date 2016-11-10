@@ -1,0 +1,14 @@
+plugins {
+    id "com.scuilion.syntastic" version "0.3.8"
+    id "org.gradle.java"
+}
+
+apply plugin:'java'
+apply plugin: 'com.scuilion.syntastic'
+apply plugin: 'application'
+mainClassName = "akka_euler.Main"
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor_2.11
+    compile 'com.typesafe.akka:akka-actor_2.11:2.4.11'
+}
